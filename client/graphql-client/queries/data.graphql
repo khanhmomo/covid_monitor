@@ -1,0 +1,10 @@
+query DatasQuery {
+  datas {
+    id
+    title
+    infected
+    healed
+    death
+    updatedAt
+  }
+}

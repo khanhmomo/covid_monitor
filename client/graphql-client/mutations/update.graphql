@@ -1,0 +1,5 @@
+mutation UpdateData($updateDataInput: UpdateDataInput!) {
+    updateData(updateDataInput: $updateDataInput) {
+        ...postMutationResponse
+    }
+}
